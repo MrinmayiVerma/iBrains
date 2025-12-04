@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>iBrains - Medical Analysis Platform</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+            },
+            colors: {
+              navy: {
+                DEFAULT: '#1C2A3A',
+                light: '#2a3d52',
+                dark: '#0f1721',
+              },
+              mint: {
+                DEFAULT: '#A8FFDA',
+                light: '#d4ffe9',
+                dark: '#7ae0b8',
+              },
+              blue: {
+                cool: '#7BC6FF',
+                soft: '#eef6fc',
+              },
+              teal: {
+                DEFAULT: '#3B8EA5',
+                dark: '#2a6f82',
+              },
+              peach: {
+                DEFAULT: '#FFB86C',
+              },
+              charcoal: {
+                DEFAULT: '#1F2933',
+                light: '#323f4b',
+              },
+              background: '#F6F9FC',
+            }
+          }
+        }
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-background dark:bg-navy-dark text-charcoal dark:text-gray-100 antialiased transition-colors duration-300">
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>

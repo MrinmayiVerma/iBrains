@@ -1,0 +1,5 @@
+{
+  "name": "iBrains2",
+  "description": "A specialized medical interface for uploading and analyzing data related to MDD, SMC, and ADHD.",
+  "requestFramePermissions": []
+}
